@@ -1,9 +1,9 @@
-const API_URL = 'https://pipipupu-production.up.railway.app';
+const API_URL = '33221133-production.up.railway.app';
 
 // ======================================================
 // MOCK MODE — поменяй на true чтобы работать без сервера
 // ======================================================
-export const USE_MOCK = true;
+export const USE_MOCK = false;
 
 const mockDelay = () => new Promise(res => setTimeout(res, 600));
 
